@@ -1,0 +1,21 @@
+{
+  "name": "vanilla-indexed-db",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "http2": "^3.3.7",
+    "https": "^1.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@vitejs/plugin-basic-ssl": "^1.0.1"
+  }
+}
